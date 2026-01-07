@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "FrostKey MK-I",
+  "description": "A privacy-first password security engine that runs locally inside the browser.",
+  "version": "1.0",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "clipboardWrite"
+  ],
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
