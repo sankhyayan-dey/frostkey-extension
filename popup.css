@@ -13,6 +13,10 @@
   --glow-very-strong: #4caf50;
 }
 
+html, body {
+  min-width: 420px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,13 +31,13 @@ body {
 
 /* Container */
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 720px;
   background: var(--card-bg);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  padding: 30px 40px;
+  padding: 28px 32px;
   box-shadow: 0 0 40px rgba(0, 224, 255, 0.15);
   animation: fadeIn 1s ease-in-out;
 }

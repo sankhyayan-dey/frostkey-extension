@@ -10,7 +10,7 @@ async function initPyodide() {
   // END: Change
 
   pyodide = await loadPyodide({
-    indexURL: "https://cdn.jsdelivr.net/pyodide/v0.23.4/full/",
+    indexURL: chrome.runtime.getURL("pyodide/")
   });
 
   const pyCode = `
