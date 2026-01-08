@@ -7,18 +7,20 @@ All operations run locally inside the browser - no backend, no data transmission
 - Password strength analysis (length, complexity)
 - Secure password generation
 - One-click clipboard copy
-- Runs fully client-side using Python (Pyodide)
+- Runs fully client-side using Python (Pyodide), bundled locally for MV3 compliance
 
 ## 🔐 Security Design
 - No backend or server
 - No password storage
 - No network requests
 - Minimal permissions (clipboard write only)
+- All executable code bundled with the extension (no remote scripts)
 - Chrome Extension sandboxed execution
 
 ## 🧠 Tech Stack
 - HTML, CSS, JavaScript
 - Python (via Pyodide)
+- WebAssembly (for local Python execution)
 - Chrome Extension (Manifest V3)
 
 ## 🚀 Installation (Developer Mode)
